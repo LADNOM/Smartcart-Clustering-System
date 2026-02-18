@@ -1,76 +1,66 @@
-Markdown
+📊 Customer Response Prediction using Machine Learning
 
-# 🤖 AI/ML Model Training - Minor Project
+📌 Project Overview:
+This project focuses on analyzing the SmartCart Customers Dataset to predict customer response based on demographic and spending behavior.
+The project includes complete data preprocessing, feature engineering, outlier detection, and exploratory data analysis (EDA).
 
-## 📌 Project Overview
-This project is a Machine Learning model training project developed as a minor academic project.  
-The main objective of this project is to train a machine learning model using a real-world dataset and evaluate its performance.
+Key Features
+✔ Handle Missing Values
+✔ Feature Engineering (Age, Total Spending, Total Children)
+✔ Outlier Detection & Removal
+✔ Correlation Heatmap Analysis
+✔ Data Visualization (Pairplot, Distribution Plots)
+✔ Customer Response Prediction (Classification)
 
----
+🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook
 
-## 🚀 Features
-- Data Preprocessing
-- Model Training
-- Model Evaluation
-- Accuracy Calculation
-- Prediction System
+📂 Dataset Information:
+The dataset contains customer information, including:
+Income
+Education
+Marital Status
+Recency
+Total Spending
+Number of Children
+Customer Response (Target Variable)
+Total Records: ~2240
+After Cleaning: ~2230 (Outliers Removed)
 
----
+⚙️ Project Workflow:
+1️⃣ Data Cleaning
+Handled missing values in the Income column
+Converted categorical variables
+Dropped unnecessary columns
+2️⃣ Feature Engineering
+Created Age from Year_Birth
+Created Total Spending column
+Created the Total Children feature
+3️⃣ Outlier Detection
+Visualized using pairplot
+Removed extreme values
+4️⃣ Correlation Analysis
+Generated a heatmap to analyze feature relationships
+📊 Visualizations
+Pairplot (Income, Recency, Age, Total Spending)
+Correlation Heatmap
+Distribution Plots
 
-## 🛠️ Technologies Used
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- Matplotlib / Seaborn
-- Jupyter Notebook / VS Code
+🎯 Objective:
+To analyze customer behavior and build a machine learning model that predicts whether a customer will respond to marketing campaigns.
+🔮 Future Improvements:
+Train multiple ML models (Logistic Regression, Random Forest)
+Hyperparameter tuning
+Deploy using Streamlit
+Create Dashboard
 
----
-
-## 📂 Project Structure
-AI-ML-Model-Training/ │ ├── dataset.csv ├── model_training.ipynb ├── requirements.txt └── README.md
-Copy code
-
----
-
-## ⚙️ Installation & Setup
-
-1️⃣ Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git�
-Copy code
-
-2️⃣ Install dependencies:
-pip install -r requirements.txt
-Copy code
-
-3️⃣ Run the project:
-python model_training.py
-Copy code
-
----
-
-## 📊 Model Performance
-- Accuracy: XX%
-- Precision: XX%
-- Recall: XX%
-- F1 Score: XX%
-
----
-
-## 📷 Output Screenshots
-(Add screenshots of model accuracy, graphs, and confusion matrix here)
-
----
-
-## 🎯 Future Improvements
-- Hyperparameter tuning
-- Deploy using Flask / Streamlit
-- Add a GUI interface
-
----
-
-## 👩‍💻 Author
-PREITY DHALI 
-B.Tech CSE (AIML) Student  
-GitHub: https://github.com/LADNOM 
-Email: dhalipreity@gmail.com
+👩‍💻 Author
+Preity Dhali
+B.Tech CSE (AIML)
+GitHub: https://github.com/LADNOM
